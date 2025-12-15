@@ -1,3 +1,3 @@
 const { contextBridge, ipcRenderer } = require('electron')
 
-contextBridge.exposeInMainWorld('ping', () => ipcRenderer.invoke('ping'))
+contextBridge.exposeInMainWorld('executeSQL', (sql) => ipcRenderer.invoke('executeSQL', sql))

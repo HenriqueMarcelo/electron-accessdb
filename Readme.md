@@ -1,7 +1,7 @@
 # Electron + AccessDB
 
-- [ ] Base Electron
-- [ ] Suport AccessDB
+- [x] Base Electron
+- [x] Suport AccessDB
 
 # Every command
 
@@ -12,3 +12,4 @@
 - add `"start": "electron .",` on package.json
 - `npm install --save-dev @electron-forge/cli`
 - `npm exec --package=@electron-forge/cli -c "electron-forge import"`
+- `npm i node-adodb`

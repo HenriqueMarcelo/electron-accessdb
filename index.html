@@ -8,11 +8,24 @@
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
     <title>Hello from Electron renderer!</title>
     <script src="renderer.js"></script>
+
+    <link rel="stylesheet" href="./renderer.css" />
 </head>
 
 <body>
     <h1>Hello from Electron renderer!</h1>
     <p>👋</p>
+    <label for="">
+        SQL:
+        <input id="query" value="SELECT * From Clientes" />
+        <button id="executar">Executar</button>
+    </label>
+    <div>
+        <h2>Resultados</h2>
+        <table id="tabela">
+
+        </table>
+    </div>
 </body>
 
 </html>
