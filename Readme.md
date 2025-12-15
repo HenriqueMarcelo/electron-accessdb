@@ -7,3 +7,4 @@
 
 - Create `Readme.md`
 - Crate `.gitignore` (https://github.com/github/gitignore/blob/main/Node.gitignore)
+- `npm init` (Entry point must be main.js)
