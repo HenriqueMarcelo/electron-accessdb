@@ -10,3 +10,5 @@
 - `npm init` (Entry point must be main.js)
 - `npm install electron --save-dev`
 - add `"start": "electron .",` on package.json
+- `npm install --save-dev @electron-forge/cli`
+- `npm exec --package=@electron-forge/cli -c "electron-forge import"`
