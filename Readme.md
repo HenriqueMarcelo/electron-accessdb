@@ -1,0 +1,9 @@
+# Electron + AccessDB
+
+- [ ] Base Electron
+- [ ] Suport AccessDB
+
+# Every command
+
+- Create `Readme.md`
+- Crate `.gitignore` (https://github.com/github/gitignore/blob/main/Node.gitignore)
