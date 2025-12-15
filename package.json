@@ -4,6 +4,7 @@
   "description": "- [ ] Base Electron\r - [ ] Suport AccessDB",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HenriqueMarcelo/electron-accessdb/issues"
   },
-  "homepage": "https://github.com/HenriqueMarcelo/electron-accessdb#readme"
+  "homepage": "https://github.com/HenriqueMarcelo/electron-accessdb#readme",
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
 }
